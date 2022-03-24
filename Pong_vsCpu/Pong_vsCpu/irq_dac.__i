@@ -1,0 +1,6 @@
+-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I .\Game -I .\GLCD -I .\timer -I .\TouchPanel -I .\button_EXINT -I .\RIT -I .\adc
+-I.\RTE\_Target_1
+-IC:\Users\gabrj\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include
+-IC:\Users\gabrj\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include
+-D__UVISION_VERSION="536" -D_RTE_ -DLPC175x_6x -D_RTE_ -DSIMULATOR
+-o .\irq_dac.o --omf_browse .\irq_dac.crf --depend .\irq_dac.d "dac\IRQ_dac.c"
